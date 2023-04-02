@@ -6,4 +6,10 @@ print(txt[4], end="")
 print(txt[3], end="")
 print(txt[2], end="")
 print(txt[1], end="")
-print(txt[0], end="")
+print(txt[0])
+
+length= len(txt)
+
+print(txt[length:0])
+
+print(txt[-1:-5])
