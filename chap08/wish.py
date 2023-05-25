@@ -1,0 +1,5 @@
+wish = open("test/wish.txt", "w", encoding='UTF8')
+wish.write("아이슬란드 오로라 보기\n")
+wish.write("남극 펭귄 보기\n")
+wish.write("아프리카 사자 보기\n")
+wish.close()

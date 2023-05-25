@@ -14,6 +14,7 @@ def get_lotto():
 
 def input_lotto():
     while len(input_list) < 6:
+
         input_num = int(input("1~45사이의 번호를 입력해주세요: "))
         if input_num > 46:
             print("45보다 큰 수를 입력하였습니다. 다시 입력하세요.")
